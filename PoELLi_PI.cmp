@@ -1,0 +1,122 @@
+Cmp-Mod V01 Created by Cvpcb (2014-08-05 BZR 5054)-product   date = Thu 05 Feb 2015 17:53:46 EET
+
+BeginCmp
+TimeStamp = /54A92A1C;
+Reference = B1;
+ValeurCmp = MBS1;
+IdModule  = Pin_Headers:Pin_Header_Straight_2x20;
+EndCmp
+
+BeginCmp
+TimeStamp = /54A92A93;
+Reference = B2;
+ValeurCmp = MBS1;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /54CE35F8;
+Reference = C1;
+ValeurCmp = 10n 100V;
+IdModule  = Capacitors_SMD:C_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /54CE366C;
+Reference = C2;
+ValeurCmp = 10n 100V;
+IdModule  = Capacitors_SMD:C_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /54CE3C15;
+Reference = C3;
+ValeurCmp = 1n 1kV;
+IdModule  = Capacitors_SMD:C_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /54CE3693;
+Reference = C4;
+ValeurCmp = 10n 100V;
+IdModule  = Capacitors_SMD:C_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /54CE36B2;
+Reference = C5;
+ValeurCmp = 10n 100V;
+IdModule  = Capacitors_SMD:C_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /54CE6429;
+Reference = C6;
+ValeurCmp = 470u;
+IdModule  = Capacitors_SMD:c_elec_10x10;
+EndCmp
+
+BeginCmp
+TimeStamp = /54A92C84;
+Reference = J1;
+ValeurCmp = RJ45;
+IdModule  = Connect:RJ45_8;
+EndCmp
+
+BeginCmp
+TimeStamp = /54A92AE4;
+Reference = J2;
+ValeurCmp = RJ45;
+IdModule  = Connect:RJ45_8;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D38363;
+Reference = P1;
+ValeurCmp = CONN_02X20;
+IdModule  = Pin_Headers:Pin_Header_Straight_2x20;
+EndCmp
+
+BeginCmp
+TimeStamp = /54CE3746;
+Reference = R1;
+ValeurCmp = 75R;
+IdModule  = Resistors_SMD:R_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /54CE3779;
+Reference = R2;
+ValeurCmp = 75R;
+IdModule  = Resistors_SMD:R_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /54CE3796;
+Reference = R3;
+ValeurCmp = 75R;
+IdModule  = Resistors_SMD:R_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /54CE37B5;
+Reference = R4;
+ValeurCmp = 75R;
+IdModule  = Resistors_SMD:R_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /54A92E06;
+Reference = TR1;
+ValeurCmp = TRANSF7;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /54CE5E71;
+Reference = U1;
+ValeurCmp = AG9800;
+IdModule  = ;
+EndCmp
+
+EndListe
