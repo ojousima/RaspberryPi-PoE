@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-08-05 BZR 5054)-product   date = Thu 05 Feb 2015 17:53:46 EET
+Cmp-Mod V01 Created by Cvpcb (2014-08-05 BZR 5054)-product   date = Fri 06 Feb 2015 17:18:19 EET
 
 BeginCmp
 TimeStamp = /54A92A1C;
@@ -54,6 +54,13 @@ TimeStamp = /54CE6429;
 Reference = C6;
 ValeurCmp = 470u;
 IdModule  = Capacitors_SMD:c_elec_10x10;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D4DBD6;
+Reference = D1;
+ValeurCmp = SMA58;
+IdModule  = Diodes_SMD:Diode-SMA_Handsoldering;
 EndCmp
 
 BeginCmp
