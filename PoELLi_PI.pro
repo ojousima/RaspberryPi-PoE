@@ -1,4 +1,4 @@
-update=Thu 05 Feb 2015 17:53:32 EET
+update=Mon 23 Feb 2015 16:19:25 EET
 version=1
 last_client=kicad
 [cvpcb]
@@ -8,25 +8,6 @@ NetIExt=net
 EquName1=devcms
 [general]
 version=1
-[eeschema]
-version=1
-PageLayoutDescrFile=
-SubpartIdSeparator=0
-SubpartFirstId=65
-LibDir=../kicad-library/library
-NetFmtName=
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-RptD_X=0
-RptD_Y=100
-RptLab=1
-LabSize=60
-[eeschema/libraries]
-LibName1=conn
-LibName2=device
-LibName3=transf
-LibName4=power
-LibName5=dc-dc
 [pcbnew]
 version=1
 PageLayoutDescrFile=
@@ -47,3 +28,23 @@ SolderMaskMinWidth=0
 DrawSegmentWidth=0.2
 BoardOutlineThickness=0.09999999999999999
 ModuleOutlineThickness=0.15
+[eeschema]
+version=1
+PageLayoutDescrFile=
+SubpartIdSeparator=0
+SubpartFirstId=65
+LibDir=../kicad-library/library
+NetFmtName=PcbnewAdvanced
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+RptD_X=0
+RptD_Y=100
+RptLab=1
+LabSize=60
+[eeschema/libraries]
+LibName1=conn
+LibName2=device
+LibName3=transf
+LibName4=power
+LibName5=dc-dc
+LibName6=regul
