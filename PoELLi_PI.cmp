@@ -1,17 +1,17 @@
-Cmp-Mod V01 Created by Cvpcb (2014-08-05 BZR 5054)-product   date = Thu 19 Feb 2015 11:45:03 EET
+Cmp-Mod V01 Created by Cvpcb (2014-08-05 BZR 5054)-product   date = Thu 26 Feb 2015 17:56:36 EET
 
 BeginCmp
 TimeStamp = /54A92A1C;
 Reference = B1;
-ValeurCmp = MBS1;
-IdModule  = Pin_Headers:Pin_Header_Straight_2x20;
+ValeurCmp = MB110S;
+IdModule  = project_specific:TO-269AA;
 EndCmp
 
 BeginCmp
 TimeStamp = /54A92A93;
 Reference = B2;
-ValeurCmp = MBS1;
-IdModule  = ;
+ValeurCmp = MB110S;
+IdModule  = project_specific:TO-269AA;
 EndCmp
 
 BeginCmp
@@ -31,7 +31,7 @@ EndCmp
 BeginCmp
 TimeStamp = /54CE3C15;
 Reference = C3;
-ValeurCmp = 1n 1kV;
+ValeurCmp = 1n 2kV;
 IdModule  = Capacitors_SMD:C_1206_HandSoldering;
 EndCmp
 
@@ -59,14 +59,14 @@ EndCmp
 BeginCmp
 TimeStamp = /54E5CE32;
 Reference = C7;
-ValeurCmp = 4n7 100V;
+ValeurCmp = 4n7 2kV;
 IdModule  = Capacitors_SMD:C_1812_HandSoldering;
 EndCmp
 
 BeginCmp
 TimeStamp = /54E5CE87;
 Reference = C8;
-ValeurCmp = 4n7 100V;
+ValeurCmp = 4n7 2kV;
 IdModule  = Capacitors_SMD:C_1812_HandSoldering;
 EndCmp
 
@@ -172,14 +172,14 @@ BeginCmp
 TimeStamp = /54A92C84;
 Reference = J1;
 ValeurCmp = RJ45;
-IdModule  = Connect:RJ45_8;
+IdModule  = project_specific:SS-7188S-A-NF;
 EndCmp
 
 BeginCmp
 TimeStamp = /54A92AE4;
 Reference = J2;
 ValeurCmp = RJ45;
-IdModule  = Connect:RJ45_8;
+IdModule  = project_specific:SS-7188S-A-NF;
 EndCmp
 
 BeginCmp
@@ -220,36 +220,36 @@ EndCmp
 BeginCmp
 TimeStamp = /54E60EA2;
 Reference = R5;
-ValeurCmp = 180;
+ValeurCmp = 180R;
 IdModule  = Resistors_SMD:R_0603_HandSoldering;
 EndCmp
 
 BeginCmp
 TimeStamp = /54E617AD;
 Reference = R6;
-ValeurCmp = R;
+ValeurCmp = 100R 250 mW;
 IdModule  = Resistors_SMD:R_0603_HandSoldering;
 EndCmp
 
 BeginCmp
 TimeStamp = /54E6183C;
 Reference = R7;
-ValeurCmp = R;
+ValeurCmp = 100R 250 mW;
 IdModule  = Resistors_SMD:R_0603_HandSoldering;
 EndCmp
 
 BeginCmp
-TimeStamp = /54A92E06;
+TimeStamp = /54ED03C1;
 Reference = TR1;
 ValeurCmp = 749012011;
-IdModule  = ;
+IdModule  = project_specific:WE_749012011;
 EndCmp
 
 BeginCmp
 TimeStamp = /54CE5E71;
 Reference = U1;
 ValeurCmp = AG9800;
-IdModule  = ;
+IdModule  = project_specific:AG9800;
 EndCmp
 
 EndListe
