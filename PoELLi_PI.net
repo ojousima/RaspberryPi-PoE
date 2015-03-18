@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/otso/ownCloud/git/kicad/PoELLi-Pi/PoELLi_PI.sch)
-    (date "Thu 26 Feb 2015 17:21:47 EET")
+    (date "Sun 01 Mar 2015 19:40:51 EET")
     (tool "Eeschema (2014-08-05 BZR 5054)-product"))
   (components
     (comp (ref B1)
