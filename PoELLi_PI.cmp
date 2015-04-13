@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2015-02-06 BZR 5410)-product   date = 1.3.2015 19:52:29
+Cmp-Mod V01 Created by Cvpcb (2015-02-06 BZR 5410)-product   date = 12.4.2015 22:41:45
 
 BeginCmp
 TimeStamp = /54A92A1C;
@@ -109,7 +109,7 @@ BeginCmp
 TimeStamp = /54E5ED3A;
 Reference = F1;
 ValeurCmp = FUSE;
-IdModule  = Resistors_SMD:R_0603_HandSoldering;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
 EndCmp
 
 BeginCmp
@@ -134,22 +134,8 @@ IdModule  = Resistors_SMD:R_0603_HandSoldering;
 EndCmp
 
 BeginCmp
-TimeStamp = /54E5AAFC;
-Reference = FB4;
-ValeurCmp = FILTER;
-IdModule  = Resistors_SMD:R_0603_HandSoldering;
-EndCmp
-
-BeginCmp
 TimeStamp = /54E5CA41;
 Reference = FB5;
-ValeurCmp = FILTER;
-IdModule  = Resistors_SMD:R_0603_HandSoldering;
-EndCmp
-
-BeginCmp
-TimeStamp = /54E5CA47;
-Reference = FB6;
 ValeurCmp = FILTER;
 IdModule  = Resistors_SMD:R_0603_HandSoldering;
 EndCmp
@@ -169,17 +155,52 @@ IdModule  = Resistors_SMD:R_0603_HandSoldering;
 EndCmp
 
 BeginCmp
+TimeStamp = /552A9313;
+Reference = FID1;
+ValeurCmp = 1, 2 mm;
+IdModule  = project_specific:Fiducial_2mm_dia;
+EndCmp
+
+BeginCmp
+TimeStamp = /552A91E5;
+Reference = FID2;
+ValeurCmp = 1, 2 mm;
+IdModule  = project_specific:Fiducial_2mm_dia;
+EndCmp
+
+BeginCmp
+TimeStamp = /552A9220;
+Reference = FID3;
+ValeurCmp = 1, 2 mm;
+IdModule  = project_specific:Fiducial_2mm_dia;
+EndCmp
+
+BeginCmp
 TimeStamp = /54A92C84;
 Reference = J1;
-ValeurCmp = RJ45;
-IdModule  = project_specific:SS-7188S-A-NF;
+ValeurCmp = RJSSE-5080;
+IdModule  = project_specific:RJSSE-5380;
 EndCmp
 
 BeginCmp
 TimeStamp = /54A92AE4;
 Reference = J2;
-ValeurCmp = RJ45;
-IdModule  = project_specific:SS-7188S-A-NF;
+ValeurCmp = RJSSE-5380;
+IdModule  = project_specific:RJSSE-5380;
+EndCmp
+
+BeginCmp
+TimeStamp = /552A902C;
+Reference = LOGO101;
+ValeurCmp = OPEN_HARDWARE_1;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /552A9156;
+Reference = LOGO102;
+ValeurCmp = ELL-i;
+IdModule  = logos:ELL-i_large;
 EndCmp
 
 BeginCmp
@@ -187,6 +208,20 @@ TimeStamp = /54D38363;
 Reference = P1;
 ValeurCmp = CONN_02X20;
 IdModule  = Pin_Headers:Pin_Header_Straight_2x20;
+EndCmp
+
+BeginCmp
+TimeStamp = /552A72A3;
+Reference = P101;
+ValeurCmp = CONN_01X01;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x01;
+EndCmp
+
+BeginCmp
+TimeStamp = /552A7806;
+Reference = P102;
+ValeurCmp = CONN_01X01;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x01;
 EndCmp
 
 BeginCmp
