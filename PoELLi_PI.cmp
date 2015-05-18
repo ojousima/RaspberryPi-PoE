@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2015-02-06 BZR 5410)-product   date = 12.4.2015 22:41:45
+Cmp-Mod V01 Created by Cvpcb (2015-02-06 BZR 5410)-product   date = 3.5.2015 23:29:01
 
 BeginCmp
 TimeStamp = /54A92A1C;
@@ -106,6 +106,20 @@ IdModule  = Resistors_SMD:R_0603_HandSoldering;
 EndCmp
 
 BeginCmp
+TimeStamp = /5546920E;
+Reference = D3;
+ValeurCmp = TVS;
+IdModule  = Diodes_SMD:SOD-323;
+EndCmp
+
+BeginCmp
+TimeStamp = /55469251;
+Reference = D4;
+ValeurCmp = TVS;
+IdModule  = Diodes_SMD:SOD-323;
+EndCmp
+
+BeginCmp
 TimeStamp = /54E5ED3A;
 Reference = F1;
 ValeurCmp = FUSE;
@@ -193,7 +207,7 @@ BeginCmp
 TimeStamp = /552A902C;
 Reference = LOGO101;
 ValeurCmp = OPEN_HARDWARE_1;
-IdModule  = ;
+IdModule  = Symbols:Symbol_OSHW-Logo_SilkScreen;
 EndCmp
 
 BeginCmp
@@ -208,6 +222,13 @@ TimeStamp = /54D38363;
 Reference = P1;
 ValeurCmp = CONN_02X20;
 IdModule  = Pin_Headers:Pin_Header_Straight_2x20;
+EndCmp
+
+BeginCmp
+TimeStamp = /5546870B;
+Reference = P2;
+ValeurCmp = CONN_01X02;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
 EndCmp
 
 BeginCmp
@@ -270,6 +291,20 @@ BeginCmp
 TimeStamp = /54E6183C;
 Reference = R7;
 ValeurCmp = 100R 250 mW;
+IdModule  = Resistors_SMD:R_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /5546978D;
+Reference = R8;
+ValeurCmp = R;
+IdModule  = Resistors_SMD:R_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /554697C8;
+Reference = R9;
+ValeurCmp = R;
 IdModule  = Resistors_SMD:R_0603_HandSoldering;
 EndCmp
 

@@ -280,17 +280,17 @@ Wire Wire Line
 Wire Wire Line
 	2100 4650 2100 4150
 Wire Wire Line
-	2400 3750 2400 3100
+	2400 2550 2400 3750
 Wire Wire Line
 	2400 3100 1600 3100
 Wire Wire Line
 	2500 3750 2500 3200
 Wire Wire Line
-	2500 3200 1600 3200
+	1600 3200 2600 3200
 Wire Wire Line
 	2800 3750 2800 3300
 Wire Wire Line
-	2800 3300 1600 3300
+	1600 3300 3200 3300
 Wire Wire Line
 	2250 4150 2250 5600
 Wire Wire Line
@@ -842,8 +842,6 @@ Wire Wire Line
 	6100 1900 6100 1750
 Connection ~ 6100 1750
 Wire Wire Line
-	2100 2800 2100 3750
-Wire Wire Line
 	1600 2800 2100 2800
 $Comp
 L TRANSFORMER_ETHERNET TR1
@@ -920,7 +918,7 @@ U 1 1 552A902C
 P 9650 6150
 F 0 "LOGO101" H 9650 6425 60  0000 C CNN
 F 1 "OPEN_HARDWARE_1" H 9650 5925 60  0000 C CNN
-F 2 "" H 9650 6150 60  0001 C CNN
+F 2 "Symbols:Symbol_OSHW-Logo_SilkScreen" H 9650 6150 60  0001 C CNN
 F 3 "" H 9650 6150 60  0000 C CNN
 	1    9650 6150
 	1    0    0    -1  
@@ -973,4 +971,123 @@ Text Notes 9800 5050 0    60   ~ 0
 Fiducials
 Text Notes 9800 5700 0    60   ~ 0
 Logos
+$Comp
+L CONN_01X02 P2
+U 1 1 5546870B
+P 9300 800
+F 0 "P2" H 9300 950 50  0000 C CNN
+F 1 "CONN_01X02" V 9400 800 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 9300 800 60  0001 C CNN
+F 3 "" H 9300 800 60  0000 C CNN
+	1    9300 800 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9100 850  9050 850 
+Wire Wire Line
+	9050 850  9050 2250
+Connection ~ 9050 2250
+Wire Wire Line
+	8950 1250 8950 750 
+Wire Wire Line
+	8950 750  9100 750 
+Connection ~ 8950 1250
+Text Notes 8200 800  0    60   ~ 0
+Unfused power to \nexternal devices
+Wire Wire Line
+	8300 1400 8100 1400
+Text Label 8300 1400 2    60   ~ 0
+ADJ
+Text Notes 8000 800  2    60   ~ 0
+Raw PoE +
+Text Notes 7950 2000 2    60   ~ 0
+Raw PoE -
+$Comp
+L TVS D3
+U 1 1 5546920E
+P 2050 2550
+F 0 "D3" H 2050 2700 50  0000 C CNN
+F 1 "TVS" H 2050 2400 50  0000 C CNN
+F 2 "Diodes_SMD:SOD-323" H 2050 2550 60  0001 C CNN
+F 3 "" H 2050 2550 60  0000 C CNN
+	1    2050 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L TVS D4
+U 1 1 55469251
+P 2900 2900
+F 0 "D4" H 2900 3050 50  0000 C CNN
+F 1 "TVS" H 2900 2750 50  0000 C CNN
+F 2 "Diodes_SMD:SOD-323" H 2900 2900 60  0001 C CNN
+F 3 "" H 2900 2900 60  0000 C CNN
+	1    2900 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2600 3200 2600 2900
+Connection ~ 2500 3200
+Wire Wire Line
+	3200 3300 3200 2900
+Connection ~ 2800 3300
+Wire Wire Line
+	2400 2550 2350 2550
+Connection ~ 2400 3100
+Wire Wire Line
+	1750 2550 1700 2550
+Wire Wire Line
+	1700 2550 1700 2800
+Connection ~ 1700 2800
+$Comp
+L R R8
+U 1 1 5546978D
+P 7950 3100
+F 0 "R8" V 8030 3100 50  0000 C CNN
+F 1 "R" V 7957 3101 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 7880 3100 30  0001 C CNN
+F 3 "" H 7950 3100 30  0000 C CNN
+	1    7950 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R9
+U 1 1 554697C8
+P 7950 3750
+F 0 "R9" V 8030 3750 50  0000 C CNN
+F 1 "R" V 7957 3751 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 7880 3750 30  0001 C CNN
+F 3 "" H 7950 3750 30  0000 C CNN
+	1    7950 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7950 3500 7950 3350
+Wire Wire Line
+	7950 3400 7700 3400
+Connection ~ 7950 3400
+Wire Wire Line
+	7950 2650 7950 2850
+Wire Wire Line
+	7950 4000 7950 4200
+$Comp
+L GND #PWR014
+U 1 1 55469BBC
+P 7950 4200
+F 0 "#PWR014" H 7950 3950 60  0001 C CNN
+F 1 "GND" H 7950 4050 60  0000 C CNN
+F 2 "" H 7950 4200 60  0000 C CNN
+F 3 "" H 7950 4200 60  0000 C CNN
+	1    7950 4200
+	1    0    0    -1  
+$EndComp
+Text Label 7950 2650 2    60   ~ 0
+AG_OUT+
+Text Label 7700 3400 0    60   ~ 0
+ADJ
+Text Notes 8150 3800 0    60   ~ 0
+More voltage
+Text Notes 8150 3150 0    60   ~ 0
+Less voltage
+Wire Wire Line
+	2100 2800 2100 3750
 $EndSCHEMATC
