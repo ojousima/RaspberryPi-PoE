@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2015-02-06 BZR 5410)-product   date = 3.5.2015 23:29:01
+Cmp-Mod V01 Created by Cvpcb (2015-02-06 BZR 5410)-product   date = 30.5.2015 16:34:36
 
 BeginCmp
 TimeStamp = /54A92A1C;
@@ -123,7 +123,7 @@ BeginCmp
 TimeStamp = /54E5ED3A;
 Reference = F1;
 ValeurCmp = FUSE;
-IdModule  = Resistors_SMD:R_0805_HandSoldering;
+IdModule  = Capacitors_SMD:C_1812_HandSoldering;
 EndCmp
 
 BeginCmp
